@@ -285,7 +285,7 @@ module pftconMod
   real(r8), parameter :: allom1s = 250.0_r8      ! modified for shrubs by
   real(r8), parameter :: allom2s =   8.0_r8      ! X.D.Z
 ! root radius, density from Bonan, GMD, 2014
-  real(r8), parameter :: root_density = 0.31e06_r8 !(g biomass / m3 root)
+  real(r8), parameter :: root_density = 0.32e06_r8 !(g biomass / m3 root)
   real(r8), parameter :: root_radius = 0.29e-03_r8 !(m)
 
   character(len=*), parameter, private :: sourcefile = &
